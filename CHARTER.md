@@ -1,7 +1,3 @@
-# {{ New Group Name }}
+# Code Flow Integrity SIG Charter
 
-The information in this file should be created as part of the group formation and approved by your sponsoring group.  See the [Chairs Best Practices policy](https://docs.google.com/document/d/1rtXskVd7YyFq74tQ2OrInyM_-OQa228R5UZs5Pm3Vz0/) for more details.
-
-A good Task Group (TG) charter describes how it achieves filling in a gap defined by the Special Interest Group (SIG) or Committee that spawned it (directly or dotted line). It lists the specific small set of  deliverables it will deliver.
-
-A SIG is an extension of a Committee, in that its only deliverables are strategy, gaps, and prioritizations, and helping spawn other SIGs or TGs to fill the gaps. A good SIG charter spells out the small set of topic areas their strategy will address along with its responsibilities as laid out in this bullet.
+Advanced exploitation techniques based on code reuse, do not introduce new code in vulnerable programs. Code reuse attacks are based on diverting the control flow of an application by overwriting critical flow control variables. The CFI SIG will analyze the state of the art and develop the RISC-V strategy to mitigate or prevent code re-use attacks. It will select the preferred potential solutions including ISA extensions that can be used by privileged and unprivileged programs to protect the integrity of their control-flow.  The SIG will develop a CFI TG Charter that will define the required written documentation, threat models, executable model, prototype implementations including SW PoCs , toolchain support, and compliance suite for a RISC-V CFI extension. 
