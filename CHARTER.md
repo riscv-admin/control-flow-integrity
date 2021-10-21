@@ -1,3 +1,3 @@
-# Code Flow Integrity SIG Charter
+# Control Flow Integrity SIG Charter
 
 Advanced exploitation techniques based on code reuse, do not introduce new code in vulnerable programs. Code reuse attacks are based on diverting the control flow of an application by overwriting critical flow control variables. The CFI SIG will analyze the state of the art and develop the RISC-V strategy to mitigate or prevent code re-use attacks. It will select the preferred potential solutions including ISA extensions that can be used by privileged and unprivileged programs to protect the integrity of their control-flow.  The SIG will develop a CFI TG Charter that will define the required written documentation, threat models, executable model, prototype implementations including SW PoCs , toolchain support, and compliance suite for a RISC-V CFI extension. 
